@@ -1,0 +1,13 @@
+p {
+  color: green;
+}
+
+.pSuper, #App p {
+  font-size: 30px;
+}
+
+#App p {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

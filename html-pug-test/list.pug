@@ -1,0 +1,11 @@
+//- Declaration
+mixin list
+    ul
+        li foo
+        li bar
+        li baz
+
+mixin list2(number)
+    ul
+        - for (var x = 0; x < number; x++)
+          li= x

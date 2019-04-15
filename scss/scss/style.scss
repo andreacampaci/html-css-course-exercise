@@ -1,0 +1,12 @@
+@import "list.scss";
+
+.pSuper {
+  font-size: 30px;
+}
+
+#App {
+  p {
+    @extend .pSuper;
+    color: red;
+  }
+}
