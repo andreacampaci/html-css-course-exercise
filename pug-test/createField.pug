@@ -1,0 +1,19 @@
+mixin createField(id, type, value, space)
+   case type
+        when 'textarea'
+            label(for=id)= id.toUpperCase()
+            if space
+                br
+            textarea(id=id, name=id, cols="30", rows="10")= value
+            if space
+                br
+                br
+            - break
+        default
+            label(for=id)= id.toUpperCase()
+            if space
+                br
+            input(id=id, name=id, type=type, value=value)
+            if space
+                br
+                br

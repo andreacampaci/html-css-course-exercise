@@ -1,0 +1,30 @@
+include createField.pug
+
+mixin fiendsetWrapper(name)
+  fieldset
+    legend= name
+    case name
+        when 'Anagrafica'
+            +createField('name', 'text', '', true)
+            +createField('surname', 'text', '', true)
+            span Gender:
+            br
+            +createField('male', 'radio', '', false)
+            +createField('female', 'radio', '', false)
+            br
+            br
+            select(name="city")
+                option(value="001") Monza
+                option(value="002") Milano
+                option(value="003") Genova
+                option(value="004") Pisa
+            - break
+        when 'Utente'
+            +createField('username', 'text', '', true)
+            +createField('password', 'password', '', true)
+            +createField('password_repeat', 'password', '', true)
+            +createField('email', 'email', '', true)
+            - break
+        when 'Note'
+            +createField('note', 'textarea', '', true)
+            - break

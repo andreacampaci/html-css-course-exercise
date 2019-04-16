@@ -1,0 +1,17 @@
+include fieldset.pug
+
+mixin creteButton(type)
+  button(type="#{type}")= type.toUpperCase()
+
+doctype html 
+html
+    head
+        title My PUG
+    body
+        h1 Form
+        form(action="#", method="POST", target="_blank")
+            +fiendsetWrapper('Anagrafica')
+            +fiendsetWrapper('Utente')
+            +fiendsetWrapper('Note')
+            +creteButton('reset')
+            +creteButton('submit')
