@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6f8705-afb6-4b79-9ae8-4fb6e827ad7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/async/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/async/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/classes-extends/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/classes-extends/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/classes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/classes/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modules/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scss/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/scss/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/scss/list.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/scss/list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modules/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="140">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -95,7 +86,6 @@
         <option value="$PROJECT_DIR$/scss/scss/list.scss" />
         <option value="$PROJECT_DIR$/scss/scss/style.css" />
         <option value="$PROJECT_DIR$/scss/scss/style.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/async/index.js" />
         <option value="$PROJECT_DIR$/js/async/index.html" />
         <option value="$PROJECT_DIR$/js/async/script.js" />
@@ -106,6 +96,7 @@
         <option value="$PROJECT_DIR$/js/modules/index.html" />
         <option value="$PROJECT_DIR$/js/modules/functions.js" />
         <option value="$PROJECT_DIR$/js/modules/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -132,6 +123,11 @@
             <path>
               <item name="html-css-course-exercise" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="html-css-course-exercise" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -139,6 +135,11 @@
               <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="modules" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="html-css-course-exercise" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="scss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -196,12 +197,12 @@
       <workItem from="1555310811880" duration="3312000" />
       <workItem from="1555496030359" duration="68000" />
       <workItem from="1556458056282" duration="5000" />
-      <workItem from="1556458074406" duration="4614000" />
+      <workItem from="1556458074406" duration="4849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8619000" />
+    <option name="totallyTimeSpent" value="8854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="735" extended-state="6" />
@@ -219,7 +220,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26878613" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32803467" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32658958" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -336,13 +337,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/scss/list.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html-pug-test/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -408,8 +402,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/modules/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="140">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
