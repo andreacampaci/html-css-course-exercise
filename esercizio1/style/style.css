@@ -1,0 +1,132 @@
+.row {
+  width: 1342px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #000;
+}
+.row > div:last-child {
+  margin-right: 0;
+}
+
+.col-1 {
+  width: 66px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-2 {
+  width: 182px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-3 {
+  width: 298px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-4 {
+  width: 414px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-5 {
+  width: 530px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-6 {
+  width: 646px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-7 {
+  width: 762px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-8 {
+  width: 878px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-9 {
+  width: 994px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-10 {
+  width: 1110px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-11 {
+  width: 1226px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.col-12 {
+  width: 1342px;
+  height: 100px;
+  background: red;
+  border: 1px solid #000;
+  margin: 10px 0;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

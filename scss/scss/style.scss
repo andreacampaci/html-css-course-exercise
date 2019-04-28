@@ -1,12 +1,84 @@
-@import "list.scss";
+$size: 100px;
 
-.pSuper {
-  font-size: 30px;
+@mixin boxshadow($val1, $val2, $val3, $val4, $rgba) {
+  $color: $rgba;
+
+  @if $rgba == red {
+    $color: yellow;
+  }
+  
+  -webkit-box-shadow: $val1 $val2 $val3 $val4 $color;
+  -moz-box-shadow: $val1 $val2 $val3 $val4 $color;
+  box-shadow: $val1 $val2 $val3 $val4 $color;
 }
 
-#App {
-  p {
-    @extend .pSuper;
-    color: red;
+.foo {
+  border: 3px solid blue;
+  background: url('');
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+}
+
+.FlexBoxWrapper {
+  display: flex;
+  background: yellow;
+  flex-direction: column;
+
+  @for $i from 1 through 6 {
+    h#{$i} { font-size: $i * 12px; }
   }
+
+  $animals: puma, sea-slug, egret, salamander;
+
+  @each $animal in $animals {
+    .#{$animal}-icon {
+      background-image: url('/images/#{$animal}.png');
+    }
+  }
+
+
+    .header {
+          @extend .foo;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          background: blue;
+          background: none;
+          @include boxshadow(10px, 10px, 5px, 0px, red);
+        }
+
+        .navigation {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          height: $size;
+          border: 1px dashed black;
+          @include boxshadow(10px, 10px, 5px, 0px, #FC0);
+        }
+
+        .navigation a:first-child {
+          @extend .foo;
+          align-self: flex-end;
+        }
+
+        .MainContentWrapper {
+          display: flex;
+          flex-direction: row;
+          align-items: stretch;
+          background: green;
+          justify-content: space-between;
+        }
+
+        .Sidebar {
+          background: greenyellow;
+          width: $size*2;
+          order: 2;
+        }
+
+        .Articles {
+          background: #333;
+          height: 1000px;
+          flex-grow: 1;
+        }
 }

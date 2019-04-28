@@ -1,0 +1,28 @@
+
+$column-width: 66px;
+$margin: 50px;
+
+.row {
+    width: ($column-width * 12) + ($margin * 11);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #000;
+
+    & > div:last-child {
+        margin-right: 0;
+    }
+}
+
+@for $var from 1 to 13 {
+    .col-#{$var} {
+        width: ($column-width * $var) + ($margin * ($var - 1));
+        height: 100px;
+        background: red;
+        border: 1px solid #000;
+        margin: 10px 0;
+        box-sizing: border-box;
+        margin-right: $margin;
+    }
+
+}

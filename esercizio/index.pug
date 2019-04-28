@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+      link(href="https://fonts.googleapis.com/css?family=Open+Sans",rel="stylesheet")
+      link(rel="stylesheet",href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf",crossorigin="anonymous")
+      link(rel="stylesheet", type="text/css", href="style/style.css")
+    body
+      .HeaderWrapper
+          .Header
+             .Header__left
+                div 
+                    .Logo
+                        img(src="img/logo.png")
+                    .Menu
+                        nav 
+                            ul 
+                                each val, index in ['item 1', 'item 2', 'item 3', 'item 4']
+                                    li
+                                        a(href="#")= val
+                        h1 New Title
+             .Header__right
+                    ul 
+                        each val, index in ['search', 'user', 'eye', 'bell']
+                            li
+                              a(href="#")
+                                 i.fas(class=`fa-${val}`)

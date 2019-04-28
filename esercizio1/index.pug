@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        link(type="text/css", rel="stylesheet", href="style/style.css")
+    body
+      .row 
+         .col-6 6
+         .col-6 6
+      .row 
+         .col-4
+         .col-4
+         .col-2
+         .col-1
+         .col-1
+
+       
+
+    each item, index in [{ "name":"partnerx", "image": "imagex" }]
+       li= item.name
+
+-
+ var list = [
+            {"status": "<?php echo $status1;?>", 
+            text: "option 1"},
+            {status: "<?php echo $status2;?>", text: "<strong>option 2</strong>"},
+            {status: "<?php echo $status3;?>", text: "option 3"}
+        ]

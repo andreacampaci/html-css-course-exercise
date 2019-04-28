@@ -1,0 +1,45 @@
+.FlexBoxWrapper {
+    display: flex;
+    background: yellow;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: blue;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px dashed black;
+}
+
+.navigation a:first-child {
+    align-self: flex-end;
+}
+
+.MainContentWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background: green;
+    justify-content: space-between;
+}
+
+.Sidebar {
+    background: greenyellow;
+    width: 200px;
+    order: 2;
+}
+
+.Articles {
+    background: #333;
+    height: 1000px;
+    flex-grow: 1;
+}

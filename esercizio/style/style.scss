@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    li {
+        padding: 0 1em;
+
+        &:last-child {
+            padding-right: 0;
+        }
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}
+
+.Header {
+
+    &Wrapper {
+        background: blue;
+        width: 100%;
+    }
+
+    max-width: 936px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+    &__left {
+
+        & > div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .Logo {
+            padding: 20px 15px;
+            background-color: rgba(0,0,0,0.4); 
+        }
+
+        .Menu {
+            padding: 1em 0 0 1em; 
+
+            nav {
+
+                
+            }
+        }
+    }
+
+    &__right {
+        padding-top: 1em;
+
+        li {
+            padding: 0 0;
+            padding-left: 1em;
+        }
+    }
+}

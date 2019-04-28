@@ -1,0 +1,13 @@
+{
+  "name": "esercizio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-pug": "pug --watch index.pug",
+    "watch-scss": "sass --watch style:style",
+    "dev": "concurrently \"npm run watch-pug\" \"npm run watch-scss\""
+  },
+  "author": "",
+  "license": "ISC"
+}
